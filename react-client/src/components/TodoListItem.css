@@ -1,0 +1,70 @@
+
+body {
+  min-width: 250px;
+  background: #2d2d2d;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 400px;
+  min-height: 500px;
+  background-color: #f4f4f4;
+  margin: 50px auto;
+}
+
+.App h1 {
+  text-align: center;
+  padding: 25px 0;
+}
+
+/*  form  */
+.todoForm {
+  width: 100%;
+  background-color: burlywood;
+  overflow: hidden;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.todoForm .input {
+  width: 75%;
+}
+.todoForm button {
+  margin-left: 5%;
+  background-color: #161515;
+  color: white;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 20%;
+}
+.todoForm button:hover {
+  background-color: #bbb;
+  color: #000000;
+}
+
+/* Items */
+.todoItem {
+  width: 80%;
+  margin: auto;
+  background: "#f4f4f4";
+  padding: 5px;
+  border-bottom: 1px #ccc dotted;
+}
+.status {
+  text-decoration: line-through;
+  color: #8b0000;
+}
+.btn {
+  background: #be0000;
+  color: #fff;
+  border: none;
+  padding: 2px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
